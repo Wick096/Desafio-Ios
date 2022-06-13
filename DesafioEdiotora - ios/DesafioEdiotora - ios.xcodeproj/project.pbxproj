@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15CE80E92857C5C500EF84DF /* DesafioEdiotoraiosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE80E82857C5C500EF84DF /* DesafioEdiotoraiosApp.swift */; };
+		15CE80EB2857C5C500EF84DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE80EA2857C5C500EF84DF /* ContentView.swift */; };
+		15CE80ED2857C5C700EF84DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CE80EC2857C5C700EF84DF /* Assets.xcassets */; };
+		15CE80F02857C5C700EF84DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CE80EF2857C5C700EF84DF /* Preview Assets.xcassets */; };
+		15CE80FC2857C72B00EF84DF /* ArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE80FB2857C72B00EF84DF /* ArticleList.swift */; };
+		15CE80FE2857C74200EF84DF /* MainArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE80FD2857C74200EF84DF /* MainArticleRow.swift */; };
+		15CE81002857C75800EF84DF /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE80FF2857C75800EF84DF /* ArticleRow.swift */; };
+		15CE81022857C77300EF84DF /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE81012857C77300EF84DF /* ArticleView.swift */; };
+		15CE81042857C7DB00EF84DF /* HeadArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE81032857C7DB00EF84DF /* HeadArticleView.swift */; };
+		15CE81062857C7F900EF84DF /* ImagemArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE81052857C7F900EF84DF /* ImagemArticleView.swift */; };
+		15CE81082857C81400EF84DF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE81072857C81400EF84DF /* Model.swift */; };
+		15CE810A2857C82400EF84DF /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE81092857C82400EF84DF /* Dados.swift */; };
+		15CE810C2857C83300EF84DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE810B2857C83300EF84DF /* Constants.swift */; };
+		15CE810E2857C85400EF84DF /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE810D2857C85400EF84DF /* ImageHelper.swift */; };
+		15CE81102857C86B00EF84DF /* NavigationBarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE810F2857C86B00EF84DF /* NavigationBarHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15CE80E52857C5C500EF84DF /* DesafioEdiotora - ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesafioEdiotora - ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CE80E82857C5C500EF84DF /* DesafioEdiotoraiosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioEdiotoraiosApp.swift; sourceTree = "<group>"; };
+		15CE80EA2857C5C500EF84DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15CE80EC2857C5C700EF84DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15CE80EF2857C5C700EF84DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15CE80FB2857C72B00EF84DF /* ArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleList.swift; sourceTree = "<group>"; };
+		15CE80FD2857C74200EF84DF /* MainArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainArticleRow.swift; sourceTree = "<group>"; };
+		15CE80FF2857C75800EF84DF /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
+		15CE81012857C77300EF84DF /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		15CE81032857C7DB00EF84DF /* HeadArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadArticleView.swift; sourceTree = "<group>"; };
+		15CE81052857C7F900EF84DF /* ImagemArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagemArticleView.swift; sourceTree = "<group>"; };
+		15CE81072857C81400EF84DF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		15CE81092857C82400EF84DF /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		15CE810B2857C83300EF84DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		15CE810D2857C85400EF84DF /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		15CE810F2857C86B00EF84DF /* NavigationBarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15CE80E22857C5C500EF84DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15CE80DC2857C5C500EF84DF = {
+			isa = PBXGroup;
+			children = (
+				15CE80E72857C5C500EF84DF /* DesafioEdiotora - ios */,
+				15CE80E62857C5C500EF84DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15CE80E62857C5C500EF84DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15CE80E52857C5C500EF84DF /* DesafioEdiotora - ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15CE80E72857C5C500EF84DF /* DesafioEdiotora - ios */ = {
+			isa = PBXGroup;
+			children = (
+				15CE80E82857C5C500EF84DF /* DesafioEdiotoraiosApp.swift */,
+				15CE80F62857C5E200EF84DF /* View */,
+				15CE80F72857C61A00EF84DF /* Model */,
+				15CE80F82857C62A00EF84DF /* Tools */,
+				15CE80EC2857C5C700EF84DF /* Assets.xcassets */,
+				15CE80EE2857C5C700EF84DF /* Preview Content */,
+			);
+			path = "DesafioEdiotora - ios";
+			sourceTree = "<group>";
+		};
+		15CE80EE2857C5C700EF84DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15CE80EF2857C5C700EF84DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15CE80F62857C5E200EF84DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15CE80EA2857C5C500EF84DF /* ContentView.swift */,
+				15CE80F92857C65800EF84DF /* ArticleList */,
+				15CE80FA2857C66C00EF84DF /* ArticleView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15CE80F72857C61A00EF84DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15CE81072857C81400EF84DF /* Model.swift */,
+				15CE81092857C82400EF84DF /* Dados.swift */,
+				15CE810B2857C83300EF84DF /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15CE80F82857C62A00EF84DF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				15CE810D2857C85400EF84DF /* ImageHelper.swift */,
+				15CE810F2857C86B00EF84DF /* NavigationBarHelper.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		15CE80F92857C65800EF84DF /* ArticleList */ = {
+			isa = PBXGroup;
+			children = (
+				15CE80FB2857C72B00EF84DF /* ArticleList.swift */,
+				15CE80FD2857C74200EF84DF /* MainArticleRow.swift */,
+				15CE80FF2857C75800EF84DF /* ArticleRow.swift */,
+			);
+			path = ArticleList;
+			sourceTree = "<group>";
+		};
+		15CE80FA2857C66C00EF84DF /* ArticleView */ = {
+			isa = PBXGroup;
+			children = (
+				15CE81012857C77300EF84DF /* ArticleView.swift */,
+				15CE81032857C7DB00EF84DF /* HeadArticleView.swift */,
+				15CE81052857C7F900EF84DF /* ImagemArticleView.swift */,
+			);
+			path = ArticleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15CE80E42857C5C500EF84DF /* DesafioEdiotora - ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CE80F32857C5C700EF84DF /* Build configuration list for PBXNativeTarget "DesafioEdiotora - ios" */;
+			buildPhases = (
+				15CE80E12857C5C500EF84DF /* Sources */,
+				15CE80E22857C5C500EF84DF /* Frameworks */,
+				15CE80E32857C5C500EF84DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DesafioEdiotora - ios";
+			productName = "DesafioEdiotora - ios";
+			productReference = 15CE80E52857C5C500EF84DF /* DesafioEdiotora - ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15CE80DD2857C5C500EF84DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					15CE80E42857C5C500EF84DF = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 15CE80E02857C5C500EF84DF /* Build configuration list for PBXProject "DesafioEdiotora - ios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15CE80DC2857C5C500EF84DF;
+			productRefGroup = 15CE80E62857C5C500EF84DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15CE80E42857C5C500EF84DF /* DesafioEdiotora - ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15CE80E32857C5C500EF84DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CE80F02857C5C700EF84DF /* Preview Assets.xcassets in Resources */,
+				15CE80ED2857C5C700EF84DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15CE80E12857C5C500EF84DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CE81082857C81400EF84DF /* Model.swift in Sources */,
+				15CE810C2857C83300EF84DF /* Constants.swift in Sources */,
+				15CE81002857C75800EF84DF /* ArticleRow.swift in Sources */,
+				15CE81062857C7F900EF84DF /* ImagemArticleView.swift in Sources */,
+				15CE81022857C77300EF84DF /* ArticleView.swift in Sources */,
+				15CE80FE2857C74200EF84DF /* MainArticleRow.swift in Sources */,
+				15CE80EB2857C5C500EF84DF /* ContentView.swift in Sources */,
+				15CE80E92857C5C500EF84DF /* DesafioEdiotoraiosApp.swift in Sources */,
+				15CE80FC2857C72B00EF84DF /* ArticleList.swift in Sources */,
+				15CE81042857C7DB00EF84DF /* HeadArticleView.swift in Sources */,
+				15CE810A2857C82400EF84DF /* Dados.swift in Sources */,
+				15CE81102857C86B00EF84DF /* NavigationBarHelper.swift in Sources */,
+				15CE810E2857C85400EF84DF /* ImageHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15CE80F12857C5C700EF84DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15CE80F22857C5C700EF84DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15CE80F42857C5C700EF84DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesafioEdiotora - ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bruno-Oliveira.DesafioEdiotora---ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15CE80F52857C5C700EF84DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesafioEdiotora - ios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bruno-Oliveira.DesafioEdiotora---ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15CE80E02857C5C500EF84DF /* Build configuration list for PBXProject "DesafioEdiotora - ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CE80F12857C5C700EF84DF /* Debug */,
+				15CE80F22857C5C700EF84DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CE80F32857C5C700EF84DF /* Build configuration list for PBXNativeTarget "DesafioEdiotora - ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CE80F42857C5C700EF84DF /* Debug */,
+				15CE80F52857C5C700EF84DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15CE80DD2857C5C500EF84DF /* Project object */;
+}
